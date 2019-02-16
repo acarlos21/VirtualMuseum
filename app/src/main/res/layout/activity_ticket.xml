@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TicketActivity"
+    android:orientation="vertical"
+    android:background="#30a6fa">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buy tickets to visit our museum in Oakland! "
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        />
+
+    <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/oaklandmuseum"
+    android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tickets: "
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:onClick="plus_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="20sp"
+            android:backgroundTint="#FFFFFF"/>
+        <TextView
+            android:id="@+id/amount_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="30sp"
+            android:textColor="#000000"/>
+        <Button
+            android:onClick="minus_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textSize="20sp"
+            android:backgroundTint="#FFFFFF"/>
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/price_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price: $25"
+                android:textSize="30sp"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                />
+
+        </LinearLayout>
+
+    <Button
+        android:id="@+id/order_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="order"
+        android:onClick="submitOrder"
+        android:backgroundTint="#FFFFFF"
+        />
+
+</LinearLayout>

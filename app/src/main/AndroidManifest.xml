@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tony.android.virtualmuseum">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Revolutionary Museum"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NavigationActivity"
+            android:label="Navigation Page" />
+        <activity
+            android:name=".ARActivity"
+            android:label="American Revolution" />
+        <activity
+            android:name=".IRActivity"
+            android:label="Industrial Revolution" />
+        <activity
+            android:name=".FRActivity"
+            android:label="French Revolution" />
+        <activity
+            android:name=".TicketActivity"
+            android:label="Buy Tickets Today!!" />
+        <activity
+            android:name=".FaqActivity"
+            android:label="Facts And sadly no Questions" />
+        <activity
+            android:name=".AboutActivity"
+            android:label="About Us!" />
+        <activity android:name=".HistoryDetailActivity"></activity>
+    </application>
+
+</manifest> <!-- @string/app_name --><!-- android:label="Revolutionary Museum" -->

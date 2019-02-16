@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FaqActivity"
+    android:orientation="vertical"
+    android:background="#be5c5c">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facts about the revolutions!"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="American Revolution:"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_marginLeft="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The american revolution was the result of Britain taxing the american colonies heavily"
+
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="French Revolution:"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_marginLeft="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The french revolution was the result of the inequality in the 3 classes. The lower class revolted to gain equalty"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Industrial Revolution:"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_marginLeft="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The industrial revolution was the result of industrialization growing. England had the first cotton textile factory. This was also the time of ''The Communist Manifesto'' This is also the time that workers revolted for less cruel working environments"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        />
+
+    <Button
+        android:backgroundTint="#ef3232"
+        android:onClick="back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>
